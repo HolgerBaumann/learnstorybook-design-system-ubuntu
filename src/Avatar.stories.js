@@ -13,7 +13,7 @@ export default {
 
 export const standard = () => (
   <Avatar
-    size="large"
+    size="medium"
     username="Tom Coleman"
     src="https://avatars2.githubusercontent.com/u/132554"
   />
