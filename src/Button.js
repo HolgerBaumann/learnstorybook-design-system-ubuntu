@@ -32,7 +32,7 @@ const SIZES = {
   MEDIUM: 'medium',
 };
 
-/*const StyledButton = styled.button`
+const StyledButton = styled.button`
   border: 0;
   border-radius: 3em;
   cursor: pointer;
@@ -95,7 +95,7 @@ const SIZES = {
     margin-top: ${props => (props.size === SIZES.SMALL ? '-1' : '-2')}px;
     margin-bottom: ${props => (props.size === SIZES.SMALL ? '-1' : '-2')}px;
 
-    /!* Necessary for js mouse events to not glitch out when hovering on svgs *!/
+    /* Necessary for js mouse events to not glitch out when hovering on svgs */
     pointer-events: none;
   }
 
@@ -303,13 +303,7 @@ const SIZES = {
         }
       `};
 
-`;*/
-
-const StyledButton = styled.button`
-  border: 10px solid red;
-  font-size: 20px;
 `;
-
 
 const ButtonLink = StyledButton.withComponent('a');
 
